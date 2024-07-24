@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<TEI type="lex-0" xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>XX</title>
+         </titleStmt>
+         <editionStmt>  
+            <edition>XX</edition>
+         </editionStmt>  
+         <!-- [...] -->
+         <publicationStmt>
+            <publisher>XX</publisher>
+            <authority>XX</authority>
+            <pubPlace>XX</pubPlace>
+            <date>XX</date>
+            <availability>
+               <licence>XX</licence>
+            </availability>
+         </publicationStmt>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>XX</p>
+         </projectDesc>
+         <editorialDecl>
+            <p>XX</p>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language role="objectLanguage" ident="x">XX</language>
+            <language role="workingLanguage" ident="x">XX</language>
+         </langUsage>
+      </profileDesc>
+   </teiHeader>
+  <text>
+      <body>
+         <div>
+            <head>Global-Hebrew</head>
+            <entry xml:id="avocado" xml:lang="he">
+               <form>
+                  <orth>אבוקדו</orth>
+                  <pron xml:lang="he" notation="nikud">אָבוֹקָדוֹ</pron>
+                  <pron>ʔavoˈkado</pron>
+               </form>
+                  <gramGrp>
+                     <gram type="pos" expand="noun">.</gram>
+                     <gram type="gender" expand="masculine">m.</gram>
+                  </gramGrp>
+               <form type="inflected">
+                  <orth>אבוקדות</orth>
+                  <orth notation="nikud">אָבוֹקָדוֹת</orth>
+                  <pron xml:lang="he" notation="hebrew">ʔavoˈkadot</pron>
+               </form>
+                  <gramGrp>
+                     <gram type="number" expand="plural">pl.</gram>
+                  </gramGrp>
+               <form type="inflected">
+                  <orth>אבוקדואים</orth>
+                  <pron xml:lang="he" notation="nikud">אָבוֹקָדוֹאִים</pron>
+                  <pron xml:lang="he" notation="hebrew">ʔavoˈkadoʔim</pron>
+               </form>
+                  <gramGrp>
+                     <gram type="number" expand="plural">pl</gram>
+                     <gram type="register">spoken</gram>
+                  </gramGrp>
+               <sense xml:id="sense_zwr_ghc_ybc">
+                  <def>פרי ירוק בעל מרקם רך ושומני, המשמש לאכילה ולטיפוח</def>
+                  <cit type="example">
+                     <quote>לאבוקדו גלעין גדול.</quote>
+                  </cit>
+               </sense>
+            </entry>
+         </div>
+      </body>
+  </text>
+</TEI>
+
