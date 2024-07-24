@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/DARIAH-ERIC/lexicalresources/master/Schemas/TEILex0/out/TEILex0.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI type="lex-0" xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>XX</title>
+         </titleStmt>
+         <editionStmt>
+            <edition>XX</edition>
+         </editionStmt>
+         <!-- [...] -->
+         <publicationStmt>
+            <publisher>XX</publisher>
+            <authority>XX</authority>
+            <pubPlace>XX</pubPlace>
+            <date>XX</date>
+            <availability>
+               <licence>XX</licence>
+            </availability>
+         </publicationStmt>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>XX</p>
+         </projectDesc>
+         <editorialDecl>
+            <p>XX</p>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language role="objectLanguage" ident="x">XX</language>
+            <language role="workingLanguage" ident="x">XX</language>
+         </langUsage>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         
+         <entry xml:id="MORAIS-1789_muralha" xml:lang="pt">
+            <form type="lemma">
+               <orth>MURALHA</orth>
+            </form>
+            <metamark function="lemmaDelimiter">,</metamark>
+            <gramGrp>
+               <gram type="pos">s.</gram>
+               <gram type="gender">f.</gram>
+            </gramGrp>
+            <sense xml:id="MORAIS-1789_muralha_1" n="1">
+               <def>muro de praça fortificada</def>
+            </sense>
+            <metamark function="senseDelimiter">.</metamark>
+         </entry>
+         
+         <entry xml:id="MORAIS-1789_sudueste" xml:lang="pt">
+            <form type="lemma">
+               <orth>SUDUESTE</orth>
+            </form>
+            <metamark function="lemmaDelimiter">,</metamark>
+            <gramGrp>
+               <gram type="pos">s.</gram>
+               <gram type="gender">f.</gram>
+            </gramGrp>
+            <sense xml:id="MORAIS-1789_sudueste_1">
+               <def>vento entre Sul, e Oeste</def>
+            </sense>
+            <metamark function="senseDelimiter">.</metamark>
+         </entry>
+         
+         <entry xml:lang="pt"  xml:id="INFOPEDIA-2024_onirologia">
+            <form type="lemma">
+               <orth>onirologia</orth>
+            </form>
+            <gramGrp>
+               <gram type="pos">nome</gram>
+               <gram type="gender">feminino</gram>
+            </gramGrp>
+            <sense xml:id="INFOPEDIA-2024_onirologia_1" n="1.">
+               <def>conjunto de conhecimentos relativos aos sonhos</def>
+            </sense>
+            <sense xml:id="INFOPEDIA-2024_onirologia_2" n="2.">
+               <def>estudo acerca dos sonhos</def>
+            </sense>
+         </entry>
+         
+      </body>
+   </text>
+</TEI>

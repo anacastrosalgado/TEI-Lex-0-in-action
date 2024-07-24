@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/DARIAH-ERIC/lexicalresources/master/Schemas/TEILex0/out/TEILex0.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI type="lex-0" xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>XX</title>
+         </titleStmt>
+         <editionStmt>
+            <edition>XX</edition>
+         </editionStmt>
+         <!-- [...] -->
+         <publicationStmt>
+            <publisher>XX</publisher>
+            <authority>XX</authority>
+            <pubPlace>XX</pubPlace>
+            <date>XX</date>
+            <availability>
+               <licence>XX</licence>
+            </availability>
+         </publicationStmt>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>XX</p>
+         </projectDesc>
+         <editorialDecl>
+            <p>XX</p>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language role="objectLanguage" ident="x">XX</language>
+            <language role="workingLanguage" ident="x">XX</language>
+         </langUsage>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <!-- metamark with four attribute : "facs" for facsimile, "corresp" link where the page can be consulted, "n" for number of page such as printed, "ana" for the header of each column-->
+         <metamark
+            facs="https://www.biusante.parisdescartes.fr/iiif/2/bibnum:37019:0035/full/full/0/default.jpg" 
+            corresp="https://www.biusante.parisdescartes.fr/histmed/medica/page?37019&amp;p=35"
+            n="19" ana="ANA"/>
+         
+         <entry xml:id="CAPURON-1805_anaphrodite" xml:lang="fr">
+            <form type="lemma">
+               <orth>ANAPHRODITE</orth>
+            </form>
+            <metamark function="lemmaDelimiter">,</metamark>
+            <gramGrp>
+               <gram type="pos">adj.</gram>
+            </gramGrp>
+            <etym>
+               <cit type="etymon" xml:lang="grc">
+                  <!-- main form in greek or latin -->
+                  <form xml:lang="grc">
+                     <orth>ἀναφρόδιτος</orth>
+                  </form>
+                  <pc>,</pc>
+                  <!-- 1 or 2 derivates of the initial form -->
+                  <seg type="desc">d’</seg>
+                  <form xml:lang="grc"><orth>ἀ</orth></form>
+                  <gramGrp>
+                     <gram type="pos">privatif</gram>
+                  </gramGrp>
+                  <pc>,</pc>
+                  <seg type="desc">et d’</seg>
+                  <form xml:lang="grc"><orth>ἀφροδίτη</orth></form>
+                  <pc>,</pc>
+                  <!-- translation equivalent of the main form -->
+                  <!-- AS <cit type="translationEquivalent" xml:lang="fr"?> -->
+                  <gloss type="translationEquivalent" xml:lang="fr">Vénus, la déesse de
+                     l'Amour</gloss>
+               </cit>
+               <metamark function="etymDelimiter">;</metamark>
+            </etym>
+            <sense xml:id="CAPURON-1805_anaphrodite_1" n="1">
+               <def>insensible à l'amour, impropre à la génération</def>
+               <metamark function="senseDelimiter">.</metamark>
+            </sense>
+         </entry>
+        
+         <entry xml:id="CAPURON-1805_anaplerose" xml:lang="fr">
+            <form type="lemma">
+               <orth>ANAPLÉROSE</orth>
+            </form>
+            <metamark function="lemmaDelimiter">,</metamark>
+            <gramGrp>
+               <gram type="pos">s.</gram>
+               <gram type="gen">f.</gram>
+            </gramGrp>
+            <etym>
+               <cit type="etymon" xml:lang="la">
+                  <form xml:lang="la"><orth>anaplerosis</orth></form>
+                  <pc>,</pc>
+                  <seg type="desc">du</seg>
+                  <gramGrp><gram type="pos">verbe</gram></gramGrp>
+                  <form xml:lang="grc"><orth>ἀναπληρόω</orth></form>
+                  <pc>,</pc>
+                  <gloss type="translationEquivalent" xml:lang="fr">je remplis</gloss>
+               </cit>
+               <metamark function="etymDelimiter">;</metamark>
+            </etym>
+            <sense xml:id="CAPURON-1805_anaplerose_1" n="1">
+               <def>restauration ou rétablissement</def>
+               <metamark function="senseDelimiter">.</metamark>
+            </sense>
+         </entry>
+         <entry xml:id="CAPURON-1805_anaplerotiques" xml:lang="fr">
+            <form type="lemma">
+               <orth>ANAPLÉROTIQUES</orth>
+            </form>
+            <metamark function="lemmaDelimiter">,</metamark>
+            <gramGrp>
+               <gram type="pos">adj.</gram>
+               <gram type="gender">pl.</gram>
+            </gramGrp>
+            <etym>
+               <cit type="etymon" xml:lang="la">
+                  <form xml:lang="la"><orth>anaplerotica</orth></form>
+                  <pc>,</pc>
+                  <seg type="desc">du</seg>
+                  <gramGrp><gram type="pos">verbe</gram></gramGrp>
+                  <form xml:lang="grc"><orth>ἀναπληρόω</orth></form>
+                  <pc>,</pc>
+                  <gloss type="translationEquivalent" xml:lang="fr">je remplis</gloss>
+               </cit>
+               <metamark function="etymDelimiter">;</metamark>
+            </etym>
+            <sense xml:id="CAPURON-1805_anaplerotiques_1" n="1">
+               <def>remèdes qui ont la vertu de restaurer, de faire revenir les chairs dans les plaies et les ulcères</def>
+               <metamark function="senseDelimiter">.</metamark>
+            </sense>
+            <lbl rend="italics">Voyez</lbl>
+            <ref type="entry">INCARNATIFS</ref>
+            <pc>,</pc>
+            <ref type="entry">SARCOTIQUES</ref>
+            <metamark function="senseDelimiter">.</metamark>
+            <pc>.</pc>
+         </entry>
+      </body>
+   </text>
+</TEI>
